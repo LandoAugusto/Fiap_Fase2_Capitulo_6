@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F38F14E-A649-D5AB-BD58-98B2F693CA73" name="TBL_CULTURA_PRODUTO_SENSOR_CONFIGURACAO">
+<sourceDDLFile>script cap 1.sql</sourceDDLFile>
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+<importedID>D44B2DDF-2419-695A-7F5C-CBC59AA7A2F0</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cultura_produto_sensor_configuracao" id="5C35D20E-07AC-A8C8-D73E-18FDEDB16FC9">
+<sourceDDLFile>script cap 1.sql</sourceDDLFile>
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+<importedID>89D89375-7BB0-9C91-6529-D9503A783163</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F0347301-904D-5648-6C45-53875718ABA4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="cd_cultura_produto_sensor" id="83680296-4A9F-4AF6-39D0-FF856E4AEB2A">
+<sourceDDLFile>script cap 1.sql</sourceDDLFile>
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+<importedID>FF1F3B55-0322-93D6-EE50-4B35EB77AE68</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F0347301-904D-5648-6C45-53875718ABA4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EABAC8E-2815-AB0D-6D92-29BBC2D7994A" referredColumn="EFAC7666-AC0C-E349-63B7-8B747C93DD21"/>
+</associations>
+</Column>
+<Column name="vlr_minimo" id="CEB2B6BA-79EC-88AA-3039-2385E8B39926">
+<sourceDDLFile>script cap 1.sql</sourceDDLFile>
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+<importedID>E41BA6FA-1C6F-F676-5258-AA09710257FA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9551DE49-DD15-2AD9-1337-B85E9C0F0925</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vlr_maximo" id="7CCE7729-4582-B273-EC0E-CF51F1B8D27E">
+<sourceDDLFile>script cap 1.sql</sourceDDLFile>
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+<importedID>984DAD05-DF4E-5E1B-0AB6-61E892774BB1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9551DE49-DD15-2AD9-1337-B85E9C0F0925</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_usuario_inclusao" id="B579323D-C905-2ECB-D2DE-2FA4E0B5698A">
+<sourceDDLFile>script cap 1.sql</sourceDDLFile>
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+<importedID>AA7BD1F7-5372-9BED-5F75-33D03E1A839D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>87C17972-1D44-105E-CAD6-E812583B992A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inclusao" id="2EC5870A-A53D-25DC-7559-5CDF4EC69493">
+<sourceDDLFile>script cap 1.sql</sourceDDLFile>
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+<importedID>964EABC3-5490-E7A1-3568-987F4EAA5535</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>8E67DB57-CECC-FEFE-1B1C-DA6F60E489BD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27383556-584C-3FDC-B68C-33BFDA04A022" name="TBL_CULTURA_PRODUTO_SENSOR_CONFIGURACAO_PK">
+<sourceDDLFile>script cap 1.sql</sourceDDLFile>
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+<importedID>1B2D9703-7299-1988-5259-109C05C6EC81</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C35D20E-07AC-A8C8-D73E-18FDEDB16FC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6E251ED-D591-E0CD-EDB2-803241270166" name="FK_TBL_CULTURA_PRODUTO_SENSOR_CONFIGURACAO_TBL_CULTURA_PRODUTO_SENSOR_cd_cultura_produto_sensor">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83680296-4A9F-4AF6-39D0-FF856E4AEB2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

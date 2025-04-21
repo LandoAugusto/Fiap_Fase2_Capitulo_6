@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TBL_MONITORAMENTO" directorySegmentName="seg_0" id="F70CF041-60D8-EFD5-C941-874167067088">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="cd_usuario_inclusao" id="12C2B81C-DDA2-DCEF-74F2-12FAA3B8552E">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dt_inclusao" id="566A0589-9B8C-23CA-42C3-FB339AF4E229">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cd_cultura_produto_sensor" id="D1441B49-374A-EF24-665A-1583FEC76885">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cd_monitoramento" id="F2966BDA-043D-0951-DA44-AA90364F4CE8">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="vlr_medido" id="F7BAB003-F790-635D-9D7F-652E8C2D2750">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_TBL_MONITORAMENTO_TBL_CULTURA_PRODUTO_SENSOR_CD_CULTURA_PRODUTO_SENSOR" id="773A2C48-AE9B-FBDE-B23A-1F00CE1BF913">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_MONITORAMENTO_PK" id="7A3FC89E-6418-EE70-0E6F-64F9B51D09B8">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

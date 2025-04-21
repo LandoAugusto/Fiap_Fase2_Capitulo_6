@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6A63F181-9C38-1EB4-79E9-49627D1C717E" containerWithKeyObject="52633A41-7B3E-C600-CD5A-555E1007736E" localFKIndex="1D23AC78-F1EC-790F-FEBB-40C96AA8C1E2" name="FK_TBL_APLICACAO_MONITORAMENTO_TBL_MONITORAMENTO_CD_MONITORAMENTO">
+<sourceDDLFile>script cap 1.sql</sourceDDLFile>
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+<importedID>B6FECDF1-2C3E-B63B-0765-13F38F007B09</importedID>
+<referredTableLongName>TBL_MONITORAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F70CF041-60D8-EFD5-C941-874167067088</referredTableID>
+<keyObject>7A3FC89E-6418-EE70-0E6F-64F9B51D09B8</keyObject>
+<referredKeyID>7A3FC89E-6418-EE70-0E6F-64F9B51D09B8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_monitoramento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TBL_PRODUTO_SENSOR" directorySegmentName="seg_0" id="F4041F20-E438-7CEF-C709-DE75E9F2F7FF">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="cd_produto" id="0BB211D4-3322-C63A-C41D-E83C55B18DFD">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dt_alteracao" id="711FCA55-35B3-DD05-1141-066C0738B1D3">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cd_produto_sensor" id="74519ED0-8AE8-E4ED-263F-2EBB6A6B5F5F">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="dt_inclusao" id="C4FB7F43-8681-45FA-0502-C413EE831F28">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cd_status" id="CD5451D4-EA8E-3449-753A-2C26B7DFA5FA">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="cd_usuario_alteracao" id="D6709496-8BBC-0FF6-A9E4-EB4258EA8711">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cd_sensor" id="D8DE520D-482D-713D-2F06-03A04F979F40">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cd_usuario_inclusao" id="EE30DE22-8536-B4F6-C4F7-35189DD22B95">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_TBL_PRODUTO_SENSOR_TBL_PRODUTO_CD_PRODUTO" id="33B317CC-EEEE-4CEA-7B22-283680225D1F">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_TBL_PRODUTO_SENSOR_TBL_SENSOR_CD_SENSOR" id="9D8AECC0-5E6A-C7FC-8E0E-67FF3E6E94C3">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_PRODUTO_SENSOR_PK" id="6C79EC5B-335F-9C20-8FA6-3D19DC74498D">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

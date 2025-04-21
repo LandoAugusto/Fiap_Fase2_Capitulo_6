@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="61D02B3A-F0B7-D223-451D-D319C3589670" containerWithKeyObject="C80F1851-3147-F19F-9CA5-B92D4098977F" localFKIndex="C10B37D8-39E7-0DFF-8A1B-25493576948B" name="FK_TBL_CULTURA_PRODUTO_SENSOR_TBL_CULTURA_cd_cultura">
+<sourceDDLFile>script cap 1.sql</sourceDDLFile>
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:34:09 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+<importedID>3318F0F5-20B0-E9BA-DE75-DDA98B30532A</importedID>
+<referredTableLongName>TBL_CULTURA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EC00AF36-41EA-AAAD-DE0D-B64363B3264C</referredTableID>
+<keyObject>0DF25FB6-28F1-BBF1-08D8-1231B425E2F5</keyObject>
+<referredKeyID>0DF25FB6-28F1-BBF1-08D8-1231B425E2F5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_cultura</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

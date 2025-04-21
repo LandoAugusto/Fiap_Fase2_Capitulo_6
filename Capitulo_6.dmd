@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Capitulo_6" id="87E5B6C4-3309-5BF8-DA1D-D00488559A3B" version="3.5">
+<createdBy>lando</createdBy>
+<createdTime>2025-04-21 20:32:18 UTC</createdTime>
+<ownerDesignName>Capitulo_6</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>87E5B6C4-3309-5BF8-DA1D-D00488559A3B</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F95041BC-6E2F-E291-1737-169917294D92">
+<designStoragePath>C:\script cap 1</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
