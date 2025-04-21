@@ -1,0 +1,92 @@
+[
+    {
+        "talhao": "A1",
+        "area": 1.0,
+        "tipo_colheita": "mecanica",
+        "producao": 95.0,
+        "perda": 5.0,
+        "produtividade": 95.0,
+        "prejuizo": 1500.0
+    },
+    {
+        "talhao": "A2",
+        "area": 1.5,
+        "tipo_colheita": "mecanica",
+        "producao": 140.0,
+        "perda": 10.0,
+        "produtividade": 93.33,
+        "prejuizo": 2900.0
+    },
+    {
+        "talhao": "B1",
+        "area": 2.0,
+        "tipo_colheita": "manual",
+        "producao": 180.0,
+        "perda": 6.0,
+        "produtividade": 90.0,
+        "prejuizo": 1860.0
+    },
+    {
+        "talhao": "B2",
+        "area": 1.2,
+        "tipo_colheita": "mecanica",
+        "producao": 100.0,
+        "perda": 7.0,
+        "produtividade": 83.33,
+        "prejuizo": 2135.0
+    },
+    {
+        "talhao": "C1",
+        "area": 0.8,
+        "tipo_colheita": "manual",
+        "producao": 70.0,
+        "perda": 3.0,
+        "produtividade": 87.5,
+        "prejuizo": 885.0
+    },
+    {
+        "talhao": "C2",
+        "area": 1.0,
+        "tipo_colheita": "mecanica",
+        "producao": 88.0,
+        "perda": 8.0,
+        "produtividade": 88.0,
+        "prejuizo": 2400.0
+    },
+    {
+        "talhao": "D1",
+        "area": 1.7,
+        "tipo_colheita": "mecanica",
+        "producao": 150.0,
+        "perda": 9.0,
+        "produtividade": 88.24,
+        "prejuizo": 2790.0
+    },
+    {
+        "talhao": "D2",
+        "area": 1.3,
+        "tipo_colheita": "manual",
+        "producao": 115.0,
+        "perda": 2.0,
+        "produtividade": 88.46,
+        "prejuizo": 570.0
+    },
+    {
+        "talhao": "E1",
+        "area": 2.0,
+        "tipo_colheita": "mecanica",
+        "producao": 190.0,
+        "perda": 12.0,
+        "produtividade": 95.0,
+        "prejuizo": 3840.0
+    },
+    {
+        "talhao": "E2",
+        "area": 1.1,
+        "tipo_colheita": "manual",
+        "producao": 97.0,
+        "perda": 1.5,
+        "produtividade": 88.18,
+        "prejuizo": 450.0
+    }
+]
