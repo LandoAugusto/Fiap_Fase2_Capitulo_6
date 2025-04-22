@@ -59,13 +59,10 @@ projeto_colheita_final_ENTREGA_FINAL_v2/
 ├── dados_colheita.json                      # Exemplo de exportação dos dados em JSON
 ├── relatorio_colheita.txt                   # Exemplo de relatório em texto plano
 ├── gestao_colheita.log                      # Arquivo de log gerado pela aplicação
-├── .env.example                             # Arquivo de exemplo para variáveis de ambiente <--- AJUSTADO
+├── .env.example                             # Arquivo de exemplo para variáveis de ambiente 
 ├── requirements.txt                         # Dependências do projeto
 ├── README.md                                # Este arquivo
 ├── teste_conexao.py                         # Script para teste isolado da conexão Oracle
-├── .gitignore                               # Arquivos/pastas ignorados pelo Git (IMPORTANTE: deve incluir .env) <--- ADICIONADO
-
-*(Certifique-se de ter um arquivo `.gitignore` que inclua a linha `.env`)*
 
 ---
 
@@ -76,7 +73,7 @@ projeto_colheita_final_ENTREGA_FINAL_v2/
     pip install -r requirements.txt
     ```
 
-2.  **Configure as Variáveis de Ambiente**:  <--- SEÇÃO AJUSTADA
+2.  **Configure as Variáveis de Ambiente**: 
     * Copie o arquivo `.env.example` que está neste repositório.
     * Renomeie a cópia para `.env`.
     * **Abra o arquivo `.env` e preencha-o com as credenciais e configurações do SEU ambiente Oracle.** Use os seguintes nomes de variáveis:
@@ -96,7 +93,6 @@ projeto_colheita_final_ENTREGA_FINAL_v2/
         # Remova o '#' da linha abaixo se quiser definir um limite diferente do padrão (2000.0)
         # LIM_PREJU=2000.0
         ```
-    * **IMPORTANTE:** O arquivo `.env` contém informações sensíveis (sua senha) e **não deve** ser enviado para o GitHub. O arquivo `.gitignore` neste projeto já está configurado para ignorá-lo, garantindo que ele permaneça apenas na sua máquina local.
 
 3.  **Crie a tabela no Oracle**:
     * Conecte-se ao seu banco de dados Oracle usando uma ferramenta como SQL\*Plus ou SQL Developer (use o `DB_USER` e `DB_PASSWORD` que você configurou no `.env`).
